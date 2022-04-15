@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex2</title>
+</head>
+<body>
+<h2>// Template view within views.py - ex2</h2>
+<hr>
+<p><a href="{% url 'go-to-google' %}">Google.com</a></p>
+<p><a href="{% url 'add-view' post.pk %}">{{ post }}</a></p>
+<p>{{ data }}</p>
+</body>
+</html>
